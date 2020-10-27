@@ -1,0 +1,23 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  FPS 30
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.9966651803690076 -0.04333090029355364 0.06914442363461945 0.3022105060425802
+  position 0.020425360838093015 0.49623618091856114 1.4156445674676956
+}
+Floor {
+  size 1 1
+  appearance BrushedSteel {
+  }
+}
+UR3e {
+  name "UR3"
+  controller "ur3_ros_controller"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  luminosity 2
+}
